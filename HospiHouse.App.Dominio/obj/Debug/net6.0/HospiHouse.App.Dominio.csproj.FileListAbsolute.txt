@@ -1,0 +1,14 @@
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\bin\Debug\net6.0\HospiHouse.App.Dominio.deps.json
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\bin\Debug\net6.0\HospiHouse.App.Dominio.dll
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\bin\Debug\net6.0\HospiHouse.App.Dominio.pdb
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\HospiHouse.App.Dominio.csproj.AssemblyReference.cache
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\HospiHouse.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\HospiHouse.App.Dominio.AssemblyInfoInputs.cache
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\HospiHouse.App.Dominio.AssemblyInfo.cs
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\HospiHouse.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\HospiHouse.App.Dominio.dll
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\refint\HospiHouse.App.Dominio.dll
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\HospiHouse.App.Dominio.pdb
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\ref\HospiHouse.App.Dominio.dll
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\bin\Debug\net6.0\HospiHouse.App.Dominio.runtimeconfig.json
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Dominio\obj\Debug\net6.0\HospiHouse.App.Dominio.genruntimeconfig.cache

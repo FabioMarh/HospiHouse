@@ -1,0 +1,56 @@
+﻿@page
+@model HospiHouse.App.Frontend.Pages.ListadoPacientesModel
+@{
+    ViewData["Title"]="Listado de pacientes";
+}
+
+<h1>Listado de pacientes en HospiHouse</h1>
+
+<hr>
+<a asp-page="CrearPaciente">Crear Paciente</a>
+<br>
+<form method="POST">
+    <table class="table table-dark">
+
+        <thead>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Genero</th>
+            <th>TipoDocumento</th>
+            <th>NumeroDocumento</th>
+            <th>FechaNacimiento</th>
+            
+            <th colspan="3">       Opciones</th>
+            
+        </thead>
+
+  <tbody>
+        <tr class="table-active">
+
+            @foreach(var paciente in Model.pacientes)
+            {
+                <tr>
+                    <td scope="row">@paciente.id</td>
+                    <td>@paciente.nombre</td>
+                    <td>@paciente.apellido</td>
+                    <td>@paciente.Genero</td>
+                    <td>@paciente.TipoIdentificacion</td>
+                    <td>@paciente.identificacion</td>
+                    <td>@paciente.fechaNacimiento</td>
+                
+                    <td> <a asp-page="./EditarPaciente" asp-route-id=@paciente-id>Editar</a></td>
+                    <td> <a asp-page="./VerPaciente" asp-route-id=@paciente.id>Detalle</a></td>
+                    <td> <a asp-page="./BorrarPaciente" asp-route-id=@paciente.id>Eliminar</a></td>
+                              
+                </tr>
+                
+            }
+        </tr>
+    
+  </tbody>
+
+</table>
+
+
+</form>

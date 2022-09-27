@@ -1,0 +1,91 @@
+﻿@page
+@model HospiHouse.App.Frontend.Pages.EditarPacienteModel
+@{
+  ViewData ["Title"]="Editar paciente";
+}
+
+
+@*Se esta usando el mismo formuladrio - codigo de la pagina CrearPaciente*@
+<H1> Editar paciente </H1>
+<h3>@ViewData["Error"]</h3>
+
+<form method="POST">
+  <legend>Editar datos de un nuevo paciente</legend>
+
+    <input type="hidden" asp-for="paciente.id">    
+    <div class="mb-3">
+      <label asp-for="paciente.nombre" class="form-label">Nombre</label>
+      <input asp-for="paciente.nombre" type="text" id="nombreInput" class="form-control" placeholder="paciente.nombre">
+      <span asp-validation-for="paciente.nombre" class="text-danger" ></span>
+    </div>
+    
+    <div class="mb-3">
+      <label asp-for="paciente.apellido" class="form-label">Apellido</label>
+      <input type="text" asp-for="paciente.apellido"  id="apellidoImput" class="form-control" placeholder="paciente.apellido">
+      <span asp-validation-for="paciente.apellido" class="text-danger" ></span>
+    </div>
+    
+     <div class="mb-3">
+      <label asp-for="paciente.TipoIdentificacion" class="form-label">Tipo de documento</label>
+      <select asp-for="paciente.TipoIdentificacion" id="tipoDocumentoSelect" class="form-select"placeholder="paciente.TipoIdentificacion">
+        <option>cedula</option>
+        <option>targetaIdentificacion</option>
+        <option>registroCivil</option>
+        <option>cedulaExtrangeria</option>
+      </select>
+      <span asp-validation-for="paciente.TipoIdentificacion" class="text-danger" ></span>
+   </div>
+    
+    <div class="mb-3">
+      <label asp-for="paciente.identificacion" class="form-label">Numero de documento</label>
+      <input type="text"asp-for="paciente.identificacion"  id="documentoInput" class="form-control" placeholder="Documento">
+      <span asp-validation-for="paciente.identificacion" class="text-danger" ></span>
+   </div>
+    
+    <div class="mb-3">
+      <label asp-for="paciente.telefono" class="form-label">Telefono</label>
+      <input type="text"asp-for="paciente.telefono" id="telInput" class="form-control" placeholder="Telefono">
+      <span asp-validation-for="paciente.telefono" class="text-danger" ></span>
+   </div>
+
+    <div class="mb-3">
+      <label asp-for="paciente.Genero" class="form-label">Genero</label>
+      <select id="generoSelect" asp-for="paciente.Genero" class="form-select"placeholder="Seleccionar">
+        <option>Masculino</option>
+        <option>Femenino</option>
+      </select>
+      <span asp-validation-for="paciente.Genero" class="text-danger" ></span>
+   </div>
+    
+    <div class="mb-3">
+      <label asp-for="paciente.direccion" class="form-label">Direccion</label>
+      <input type="text" asp-for="paciente.direccion" id="direccionInput" class="form-control" placeholder="Direccion">
+      <span asp-validation-for="paciente.direccion" class="text-danger" ></span>
+   </div>
+   
+    <div class="mb-3">
+      <label asp-for="paciente.ciudad" class="form-label">Ciudad</label>
+      <input type="text" asp-for="paciente.ciudad" id="ciudadInput" class="form-control" placeholder="Ciudad">
+      <span asp-validation-for="paciente.ciudad" class="text-danger" ></span>
+   </div>
+
+    
+    <div class="mb-3">
+      <label asp-for="paciente.fechaNacimiento" class="form-label">Fecha de naciomiento</label>
+      <input type="text" asp-for="paciente.fechaNacimiento" id="fechaNacimientoInput" class="form-control" placeholder="Año/Mes/Dia">
+      <span asp-validation-for="paciente.fechaNacimiento" class="text-danger" ></span>
+   </div>
+
+    <div class="mb-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+        <label class="form-check-label" for="disabledFieldsetCheck">
+          Recomendaciones
+        </label>
+      </div>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Ingresar</button>
+  </fieldset>
+</form> 
+     

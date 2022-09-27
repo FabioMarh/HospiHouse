@@ -1,0 +1,17 @@
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\HospiHouse.App.Persistencia.csproj.AssemblyReference.cache
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\HospiHouse.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\HospiHouse.App.Persistencia.AssemblyInfoInputs.cache
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\HospiHouse.App.Persistencia.AssemblyInfo.cs
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\HospiHouse.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\bin\Debug\net6.0\HospiHouse.App.Persistencia.deps.json
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\bin\Debug\net6.0\HospiHouse.App.Persistencia.runtimeconfig.json
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\bin\Debug\net6.0\HospiHouse.App.Persistencia.dll
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\bin\Debug\net6.0\HospiHouse.App.Persistencia.pdb
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\bin\Debug\net6.0\HospiHouse.App.Dominio.dll
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\bin\Debug\net6.0\HospiHouse.App.Dominio.pdb
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\HospiHouse.App.Persistencia.csproj.CopyComplete
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\HospiHouse.App.Persistencia.dll
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\refint\HospiHouse.App.Persistencia.dll
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\HospiHouse.App.Persistencia.pdb
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\HospiHouse.App.Persistencia.genruntimeconfig.cache
+C:\ProgProjects\HospiHouse\HospiHouse.App\HospiHouse.App.Persistencia\obj\Debug\net6.0\ref\HospiHouse.App.Persistencia.dll

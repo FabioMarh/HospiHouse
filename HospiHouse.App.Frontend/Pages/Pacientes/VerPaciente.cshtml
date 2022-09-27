@@ -1,0 +1,49 @@
+﻿@page
+@model HospiHouse.App.Frontend.Pages.VerPacienteModel
+@{
+}
+
+<h1>Informacion del paciente</h1>
+<p>
+    <a asp-page="./ListadoPacientes">Lista de paciente</a>
+</p>
+
+@*Con  el method post logro conectar con la base de datos y enviar y recibir la informacion*@
+<form method="POST">
+
+@*con las targetas "Cards" de bootstrad  se logran configurar facil este cuadro, hay que buscar mas para obtenerlos con colores *@
+<div class="card border-success mb-3" style="max-width: 18rem;">
+  <div class="card-header">Paciente</div>
+  <div class="card-body text-success">
+    @*con el arroba @ puedo citar el model y la entidad paciente para pedir un dato, hay otro metodo en crear paciente pero este resutla mas practico por el momento... *@
+    <h5 for="Paciente" class="card-title">@Model.paciente.nombre @Model.paciente.apellido</h5>
+    <p class="card-text">@Model.paciente.TipoIdentificacion</p>
+    <p class="card-text">@Model.paciente.identificacion</p>
+    <p class="card-text">@Model.paciente.Genero</p>
+    <p class="card-text">@Model.paciente.telefono</p>
+    <p class="card-text">@Model.paciente.direccion</p>
+    <p class="card-text">@Model.paciente.ciudad</p>
+    <p class="card-text">@Model.paciente.fechaNacimiento</p>
+  </div>
+
+
+
+@*
+<div class="card text-bg-success mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Success card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+<div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Dark card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+ *@
+
+</form>

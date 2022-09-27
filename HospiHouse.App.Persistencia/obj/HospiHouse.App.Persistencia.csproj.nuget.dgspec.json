@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Persistencia\\HospiHouse.App.Persistencia.csproj": {}
+  },
+  "projects": {
+    "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Dominio\\HospiHouse.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Dominio\\HospiHouse.App.Dominio.csproj",
+        "projectName": "HospiHouse.App.Dominio",
+        "projectPath": "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Dominio\\HospiHouse.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Persistencia\\HospiHouse.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Persistencia\\HospiHouse.App.Persistencia.csproj",
+        "projectName": "HospiHouse.App.Persistencia",
+        "projectPath": "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Persistencia\\HospiHouse.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Dominio\\HospiHouse.App.Dominio.csproj": {
+                "projectPath": "C:\\ProgProjects\\HospiHouse\\HospiHouse.App\\HospiHouse.App.Dominio\\HospiHouse.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
